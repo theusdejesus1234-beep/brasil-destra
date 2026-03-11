@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notícias | Brasil Destra</title>
+    <meta name="description" content="Agregador de notícias sobre política brasileira e economia.">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <nav>
+                <a href="/" class="logo"><i class="fas fa-flag"></i> BRASIL <span>DESTRA</span></a>
+                <ul class="nav-links">
+                    <li><a href="/">Início</a></li>
+                    <li><a href="/sobre.html">Sobre</a></li>
+                    <li><a href="/noticias.html">Notícias</a></li>
+                    <li><a href="/contato.html">Contato</a></li>
+                    <li><a href="/abaixo.html">Petição Pública</a></li>
+                </ul>
+                <div class="menu-toggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container" style="padding: 4rem 0;">
+        <h1 class="section-title">Agregador de Notícias</h1>
+        <p style="text-align: center; max-width: 800px; margin: 0 auto 3rem; color: var(--gray);">
+            Acompanhe em tempo real as principais atualizações do cenário político e econômico. 
+            Nosso sistema busca informações diretamente das fontes mais influentes do país.
+        </p>
+
+        <div class="news-layout">
+            <div class="news-main">
+                <div class="news-grid" id="news-container">
+                    <!-- News will be loaded here via JS -->
+                    <div style="text-align: center; grid-column: 1/-1; padding: 3rem; background: #f9f9f9; border-radius: 10px; border: 1px dashed #ddd;">
+                        <i class="fas fa-sync fa-spin" style="font-size: 2rem; color: var(--primary); margin-bottom: 1rem;"></i>
+                        <p>Sincronizando com as fontes de notícias...</p>
+                    </div>
+                </div>
+            </div>
+
+            <aside class="news-sidebar">
+                <div class="sidebar-card">
+                    <h3><i class="fas fa-external-link-alt"></i> Fontes Diretas</h3>
+                    <p style="font-size: 0.85rem; margin-bottom: 1rem; color: var(--gray);">Caso o agregador demore a carregar, acesse diretamente os portais parceiros:</p>
+                    <ul class="source-links">
+                        <li><a href="https://www.gazetadopovo.com.br/" target="_blank">Gazeta do Povo <i class="fas fa-chevron-right"></i></a></li>
+                        <li><a href="https://revistaoeste.com/" target="_blank">Revista Oeste <i class="fas fa-chevron-right"></i></a></li>
+                        <li><a href="https://www.poder360.com.br/" target="_blank">Poder360 <i class="fas fa-chevron-right"></i></a></li>
+                        <li><a href="https://jovempan.com.br/noticias" target="_blank">Jovem Pan News <i class="fas fa-chevron-right"></i></a></li>
+                        <li><a href="https://pleno.news/" target="_blank">Pleno News <i class="fas fa-chevron-right"></i></a></li>
+                        <li><a href="https://www.metropoles.com/coluna/igor-gadelha" target="_blank">Igor Gadelha (Metrópoles) <i class="fas fa-chevron-right"></i></a></li>
+                        <li><a href="https://www.cnnbrasil.com.br/politica/" target="_blank">CNN Brasil Política <i class="fas fa-chevron-right"></i></a></li>
+                    </ul>
+                </div>
+
+                <div class="sidebar-card" style="margin-top: 2rem;">
+                    <h3><i class="fas fa-info-circle"></i> Sobre o Agregador</h3>
+                    <p style="font-size: 0.85rem; line-height: 1.6;">
+                        Este painel utiliza tecnologia RSS para consolidar manchetes de diversos portais em um único lugar, facilitando sua leitura diária.
+                    </p>
+                </div>
+            </aside>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <a href="/" class="logo" style="color: white;"><i class="fas fa-flag"></i> BRASIL <span>DESTRA</span></a>
+                </div>
+                <div class="footer-col">
+                    <h4>Links Rápidos</h4>
+                    <ul class="footer-links">
+                        <li><a href="/">Início</a></li>
+                        <li><a href="/sobre.html">Sobre Nós</a></li>
+                        <li><a href="/noticias.html">Notícias</a></li>
+                        <li><a href="/contato.html">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Legal</h4>
+                    <ul class="footer-links">
+                        <li><a href="/privacidade.html">Privacidade</a></li>
+                        <li><a href="/termos.html">Termos de Uso</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Brasil Destra. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/js/script.js"></script>
+</body>
+</html>
